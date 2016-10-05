@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Changing Files
+=======
+Chaning Test file in Branch
+>>>>>>> TestBranch
