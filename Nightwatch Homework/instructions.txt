@@ -1,0 +1,15 @@
+6) Start Selenium
+
+Open a console window (or reuse the one from step 3) and navigate to: C:\development\Code\GitHomework\Nightwatch Homework\nodejs\node_modules\nightwatch\lib
+
+Now type java -jar sel-serv.jar to start Selenium Server.
+Open Firefox and navigate to http://localhost:4444/ to check the server is up (ignore the 403 error).
+
+
+7) Run some tests!
+Open a new console window.
+Navigate to C:\development\Code\GitHomework\Nightwatch Homework\nodejs\node_modules\nightwatch
+
+Run all example tests by typing node nightwatch.js
+Run a group of tests by typing node nightwatch.js -g google
+Run a single test by typing node nightwatch.js -t examples/tests/nightwatch.js
