@@ -28,4 +28,10 @@ public class Stepdefs {
         String actualSound = belly.getSound(waitingTime);
         assertThat(actualSound, is(expectedSound));
     }
+    
+    @Then("^my belly is (.*)$")
+    public void my_belly_should_be_silent(String expectedSound) throws Throwable {
+        String actualSound = belly.getSound(waitingTime);
+        assertThat(actualSound, is(expectedSound));
+    }
 }
