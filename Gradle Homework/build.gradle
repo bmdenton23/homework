@@ -35,4 +35,11 @@ task deployWar() << {
 	}
 }
 
+task deployWar2 {
+	println "configuring deployWar2"
+	doLast {
+		println "not really deploying, but demonstrating doLast"
+	}
+}
+
 
